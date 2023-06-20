@@ -4,7 +4,7 @@ import { DataSource, EntityManager, Repository } from 'typeorm';
 import { CreateQuizDTO } from './dto/quiz.dto';
 
 // Entity.
-import { Quiz } from './quiz.entity';
+import { Quiz } from './entity/quiz.entity';
 
 @Injectable()
 export class QuizService {

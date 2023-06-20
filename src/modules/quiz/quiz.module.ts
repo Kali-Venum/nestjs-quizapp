@@ -8,7 +8,7 @@ import { QuizController } from './quiz.controller';
 import { QuizService } from './quiz.service';
 
 // Entity.
-import { Quiz } from './quiz.entity';
+import { Quiz } from './entity/quiz.entity';
 
 @Module({
   imports: [
